@@ -1,7 +1,7 @@
 export default {
   title: "OpenBot",
   description: "I'ts very easy to use",
-  base: process.env.GITHUB_ACTIONS ? "/fishpi-robot-openapi-website/" : "/",
+  base: process.env.GITHUB_ACTIONS ? "/fishpi-openbot-website/" : "/",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   lastUpdated: true,
   themeConfig: {
