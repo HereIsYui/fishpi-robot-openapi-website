@@ -6,7 +6,7 @@ hero:
   text: 摸鱼派机器人开放平台
   tagline: 开发你的机器人(游戏)接入平台吧
   image:
-    src: ./logo.png
+    src: /logo.png
     alt: OpenBot
   actions:
     - theme: brand

@@ -4,7 +4,7 @@ export default {
   base: process.env.GITHUB_ACTIONS ? '/fishpi-robot-openapi-website/' : '/', // 重要！
   lastUpdated: true,
   themeConfig: {
-    logo: './logo_raw.png',
+    logo: '/logo_row.png',
     outline: {
       level: [2, 6],
       label: "目录",
