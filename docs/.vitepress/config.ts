@@ -1,10 +1,11 @@
 export default {
   title: "OpenBot",
   description: "I'ts very easy to use",
-  base: process.env.GITHUB_ACTIONS ? '/fishpi-robot-openapi-website/' : '/', // 重要！
+  base: process.env.GITHUB_ACTIONS ? "/fishpi-robot-openapi-website/" : "/",
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   lastUpdated: true,
   themeConfig: {
-    logo: '/logo_row.png',
+    logo: "/logo_raw.png",
     outline: {
       level: [2, 6],
       label: "目录",
